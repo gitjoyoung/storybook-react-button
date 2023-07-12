@@ -1,4 +1,4 @@
-## 버튼 스토리북 
+## 스토리북 연습예제 
 https://gitjoyoung.github.io/storybook-react-button/
 <br>
 
