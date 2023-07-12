@@ -59,9 +59,11 @@ $ yarn add cdd-storybook-wanted-jy
 ### Serving the app
 
 ```sh
-    "build": "rollup -c",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "prepack": "pnpm run build"
+import { Button } from "cdd-storybook-wanted-jy";
+
+const App = () => {
+  retrun(<Button label="안녕하십니까" color="white">버튼입니다 </Button>);
+};
+
 ```
 
