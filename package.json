@@ -1,12 +1,13 @@
 {
-  "name": "cdd-storybook-wanted",
+  "name": "cdd-storybook-wanted-jy",
   "version": "1.0.0",
   "description": "원티드 프리온보딩 챌린지 스토리북과 함께하는 개발",
   "keywords": [],
   "scripts": {
     "build": "rollup -c",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepack" : "pnpm run build"
   },
   "main": "./dist/esm/index.js",
   "type": "module",
@@ -32,7 +33,6 @@
     "react-dom": "^18.2.0",
     "rollup": "^3.26.2",
     "rollup-plugin-esbuild": "^5.0.0",
-    "rollup-plugin-peer-deps-external": "^2.2.4",
     "storybook": "^7.0.26"
   },
   "dependencies": {

@@ -11,12 +11,13 @@ export const Button = ({  color, backgroundColor ,label, ...props }) => {
 };
 const DefaultButton = styled.button`
   background-color: ${(props) =>
-    props.$backgroundColor ? props.$backgroundColor : "yellow"};
+    props.$backgroundColor ? props.$backgroundColor : "black"};
   color: ${(props) =>
     props.$color ? props.$color : "yellow"};
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
+  padding: 10px;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
