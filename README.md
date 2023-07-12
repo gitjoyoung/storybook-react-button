@@ -1,6 +1,8 @@
 ## 원티드 스토리북 예제
-
+https://gitjoyoung.github.io/storybook-react-button/
 버튼 디자인 스토리북 스터디
+
+<img src="public\storybook.png" />
 
 공부 내용 
 
